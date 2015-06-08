@@ -1,0 +1,9 @@
+Table: Courses
+Columns:
+cs_id	int(11) AI PK
+cs_code	varchar(6)
+cs_name	varchar(30)
+cs_description	varchar(250)
+cs_type	varchar(8)
+cs_nb_credits	int(11)
+cs_lab	varchar(3)
