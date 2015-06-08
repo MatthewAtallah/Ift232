@@ -63,7 +63,7 @@
                       <Component id="jTextField3" min="-2" pref="287" max="-2" attributes="0"/>
                       <Component id="Nametxt" max="32767" attributes="0"/>
                       <Group type="102" attributes="0">
-                          <Component id="Majorsel" min="-2" max="-2" attributes="0"/>
+                          <Component id="Majorbt" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
                           <Component id="Electivesel" min="-2" max="-2" attributes="0"/>
                       </Group>
@@ -96,7 +96,7 @@
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="Majorsel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="Majorbt" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="Electivesel" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
@@ -154,7 +154,7 @@
             <Property name="text" type="java.lang.String" value="Type:"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JRadioButton" name="Majorsel">
+        <Component class="javax.swing.JRadioButton" name="Majorbt">
           <Properties>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>

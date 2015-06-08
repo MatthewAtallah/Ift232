@@ -36,7 +36,7 @@ public class Course extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         jTextField3 = new javax.swing.JTextField();
         jLabel4 = new javax.swing.JLabel();
-        Majorsel = new javax.swing.JRadioButton();
+        Majorbt = new javax.swing.JRadioButton();
         Electivesel = new javax.swing.JRadioButton();
         jLabel5 = new javax.swing.JLabel();
         jComboBox1 = new javax.swing.JComboBox();
@@ -66,8 +66,8 @@ public class Course extends javax.swing.JFrame {
 
         jLabel4.setText("Type:");
 
-        buttonGroup1.add(Majorsel);
-        Majorsel.setText("Major");
+        buttonGroup1.add(Majorbt);
+        Majorbt.setText("Major");
 
         buttonGroup1.add(Electivesel);
         Electivesel.setText("Elective");
@@ -110,7 +110,7 @@ public class Course extends javax.swing.JFrame {
                     .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, 287, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(Nametxt)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(Majorsel)
+                        .addComponent(Majorbt)
                         .addGap(51, 51, 51)
                         .addComponent(Electivesel))
                     .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -136,7 +136,7 @@ public class Course extends javax.swing.JFrame {
                         .addGap(18, 18, 18)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel4)
-                            .addComponent(Majorsel)
+                            .addComponent(Majorbt)
                             .addComponent(Electivesel))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -183,7 +183,10 @@ public class Course extends javax.swing.JFrame {
         } else if (Nametxt.getText().equals("")) {
             JOptionPane.showMessageDialog(this,
                     "Enter a name", "Warning",
-                    JOptionPane.WARNING_MESSAGE);     // TODO add your handling code here:
+                    JOptionPane.WARNING_MESSAGE);} else {
+            String code = Codetxt.getText();
+            String name = Nametxt.getText();
+            String type;}   // TODO add your handling code here:
     }//GEN-LAST:event_SavebuttonActionPerformed
 
     /**
@@ -224,7 +227,7 @@ public class Course extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextField Codetxt;
     private javax.swing.JRadioButton Electivesel;
-    private javax.swing.JRadioButton Majorsel;
+    private javax.swing.JRadioButton Majorbt;
     private javax.swing.JTextField Nametxt;
     private javax.swing.JButton Savebutton;
     private javax.swing.ButtonGroup buttonGroup1;
